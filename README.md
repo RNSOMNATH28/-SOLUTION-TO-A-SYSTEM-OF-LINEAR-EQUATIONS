@@ -17,12 +17,13 @@ End the program
 #Program to find the solution for the given linear equations.
 #Developed by:R N Somnath
 #RegisterNumber:24000580
+```
 import numpy as np
 a=np.array([[1,-3],[3,1]])
 b=np.array([0,10])
 res=np.linalg.solve(a,b)
 print(res)
-
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/94a212c2-9338-4c71-bf78-60c34ede359a)
 
